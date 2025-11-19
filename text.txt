@@ -1,0 +1,17 @@
+Bước 1: Tạo local repository: git init
+Bước 2: Tạp remote repository: tọa repo trên trang git hub
+Bước 3: kết nối local repo với remote repo:
+ git remote add orgin "url của remote repo"
+ ---> 3 bước chuẩn bị repo
+
+ Đẩy các file lên git sever(remote repo)
+ git add "Tên file"
+ git add -A
+ git add .
+
+ COMMIT
+ git commit -m "message commit"
+
+ Push code lên remote
+ git push -u orgin Tên nhánh : lần đầu đẩy lên nhánh
+ git push : dành cho những lần sau
